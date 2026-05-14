@@ -1,0 +1,24 @@
+.nav-desktop {
+    display: block;
+}
+
+.nav-desktop ul {
+
+    display: flex;
+
+    list-style: none;
+
+    flex-direction: row;
+
+    gap: 16px;
+}
+
+.nav-mobile ul {
+    display: flex;
+
+    list-style: none;
+
+    flex-direction: column;
+
+    gap: 16px;
+}
