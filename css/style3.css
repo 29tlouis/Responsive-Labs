@@ -2,6 +2,13 @@
     display: block;
 }
 
+.check {    
+    position: absolute; 
+    
+    left: -500px;
+}
+
+
 .nav-desktop ul {
 
     display: flex;
