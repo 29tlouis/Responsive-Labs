@@ -13,6 +13,13 @@
     gap: 16px;
 }
 
+.nav-mobile {
+
+    transform: translateX(-150%);
+    transition: transform 0.5s ease;
+
+}
+
 .nav-mobile ul {
     display: flex;
 
@@ -23,18 +30,18 @@
     gap: 16px;
 }
 
-@media (max-width: 40rem) {}
-
-.nav-desktop {
-
-    display: none;
-
-}
-
 @media (max-width: 40rem) {
+
+    .nav-desktop {
+
+        display: none;
+
+    }
 
     .nav-mobile {
 
         transform: translateX(0%);
+
     }
+
 }
